@@ -100,3 +100,30 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+@media (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    form {
+        max-width: 700px;
+        margin: auto;
+    }
+}
